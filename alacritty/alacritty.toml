@@ -1,0 +1,23 @@
+import = ["~/.config/alacritty/themes/BREEZE.toml"]
+
+[window]
+dimensions = { columns = 100, lines = 24 }
+opacity = 0.90
+dynamic_title = false
+blur = true
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Medium" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "MediumItalic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "BoldItalic" }
+size = 14
+
+[cursor]
+style = { shape = "Beam", blinking = "Always"}
+
+[mouse]
+hide_when_typing = false
+
+
+

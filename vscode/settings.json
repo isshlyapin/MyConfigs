@@ -36,12 +36,13 @@
     "workbench.colorTheme": "Gruvbox Dark (Medium)",
     "files.autoSave": "afterDelay",
     "vsicons.dontShowNewVersionMessage": true,
-    "breadcrumbs.enabled": false,
     "extensions.ignoreRecommendations": true,
     "cSpell.language": "en, ru",
     "cSpell.userWords": [
         "колво",
         "DASM"
     ],
-    "terminal.external.linuxExec": "alacritty"
+    "terminal.external.linuxExec": "alacritty",
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false
   }
