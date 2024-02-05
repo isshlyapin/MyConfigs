@@ -115,14 +115,15 @@ alias sgte="sudo gnome-text-editor"
 alias zshrc="vi ~/.zshrc"
 
 #Android
-alias fastboot="sudo ~/platform-tools/fastboot"
-alias adb="sudo ~/platform-tools/adb"
+# alias fastboot="sudo ~/.platform-tools/fastboot"
+# alias adb="sudo ~/.platform-tools/adb"
 
 #Git 
 # alias glo="LESS=-R git log --oneline"
 # alias glog="LESS=-R git log"
 
-alias up="epm full-upgrade"
+alias up="yay -Syu"
+alias upmir="rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup >/etc/pacman.d/mirrorlist"
 alias c="clear"
 
 alias cat="bat"
