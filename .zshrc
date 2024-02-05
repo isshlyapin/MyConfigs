@@ -123,7 +123,7 @@ alias zshrc="vi ~/.zshrc"
 # alias glog="LESS=-R git log"
 
 alias up="yay -Syu"
-alias upmir="rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup >/etc/pacman.d/mirrorlist"
+alias upmir="rankmirrors -n 6 /etc/pacman.d/mirrorlist.src > /etc/pacman.d/mirrorlist"
 alias c="clear"
 
 alias cat="bat"

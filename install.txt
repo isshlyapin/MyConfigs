@@ -1,2 +1,1 @@
-git gcc make cmake automake base-devel zsh neovim bat duf fd tldr ncdu lsd btop gping
-mkdir Desktop Download Documents Pictures Videos Music Templates Public
+git gcc make cmake automake zsh neovim bat duf fd tldr ncdu lsd btop gping
