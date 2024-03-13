@@ -1,0 +1,24 @@
+BasedOnStyle: Microsoft
+IndentWidth: 4
+
+AlignConsecutiveAssignments:
+  Enabled: true
+
+AlignConsecutiveBitFields:
+  Enabled: true
+
+AlignEscapedNewlines: Right
+
+AlignConsecutiveDeclarations:
+  Enabled: true
+
+AlignConsecutiveMacros:
+  Enabled: true
+
+AllowShortBlocksOnASingleLine: Always
+
+AllowShortCaseLabelsOnASingleLine: true
+
+AllowShortFunctionsOnASingleLine: All
+
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
