@@ -1,21 +1,24 @@
 return {
-  {
-    "ellisonleao/gruvbox.nvim",
-    priority = 1000 ,
-    config = true,
-  },
+  -- {
+  --   "ellisonleao/gruvbox.nvim",
+  --   priority = 1000 ,
+  --   config = true,
+  -- },
 
   {
-    "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}
+    "lukas-reineke/indent-blankline.nvim",
+    enabled = false,
+    main = "ibl",
+    opts = {}
   },
 
-  {
-    "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
-    config = function()
-      require "configs.conform"
-    end,
-  },
+  -- {
+  --   "stevearc/conform.nvim",
+  --   -- event = 'BufWritePre', -- uncomment for format on save
+  --   config = function()
+  --     require "configs.conform"
+  --   end,
+  -- },
   -- {
   --   "nvim-tree/nvim-tree.lua",
   --   opts = {
@@ -41,11 +44,8 @@ return {
         "lua-language-server",
         "stylua",
   		  "clangd",
-	      "clang-format",
 	      "asm-lsp",
-	      "asmfmt",
 	      "bash-language-server",
-	      "shfmt",
         "dot-language-server"
       },
   	},
