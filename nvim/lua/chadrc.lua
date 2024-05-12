@@ -6,9 +6,8 @@ local M = {}
 
 M.ui = {
 	theme = "gruvbox",
-  statusline = {
-    theme = "vscode_colored"
-  },
+  statusline = { theme = "vscode_colored" },
+
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },

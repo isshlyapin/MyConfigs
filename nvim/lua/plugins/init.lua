@@ -1,30 +1,16 @@
 return {
-  -- {
-  --   "ellisonleao/gruvbox.nvim",
-  --   priority = 1000 ,
-  --   config = true,
-  -- },
+  {
+    "stevearc/conform.nvim",
+    -- event = 'BufWritePre', -- uncomment for format on save
+    config = function()
+      require "configs.conform"
+    end,
+  },
 
   {
     "lukas-reineke/indent-blankline.nvim",
     enabled = false,
-    main = "ibl",
-    opts = {}
   },
-
-  -- {
-  --   "stevearc/conform.nvim",
-  --   -- event = 'BufWritePre', -- uncomment for format on save
-  --   config = function()
-  --     require "configs.conform"
-  --   end,
-  -- },
-  -- {
-  --   "nvim-tree/nvim-tree.lua",
-  --   opts = {
-  --     view = { width = 25 },
-  --   },
-  -- },
 
   -- These are some examples, uncomment them if you want to see them work!
   {
@@ -39,15 +25,18 @@ return {
   	"williamboman/mason.nvim",
   	opts = {
   		ensure_installed = {
-  			"html-lsp", "css-lsp" , "prettier",
-  			"cmake-language-server",
-        "lua-language-server",
-        "stylua",
-  		  "clangd",
-	      "asm-lsp",
-	      "bash-language-server",
-        "dot-language-server"
-      },
+  			"lua-language-server",
+        "bash-language-server",
+        "cmake-language-server",
+        "autotools-language-server",
+        "markdown-oxide",
+  			"css-lsp",
+        "asm-lsp",
+        "clangd",
+        "texlab",
+        "pyright",
+        "taplo",
+  		},
   	},
   },
 
@@ -55,14 +44,22 @@ return {
   	"nvim-treesitter/nvim-treesitter",
   	opts = {
   		ensure_installed = {
-  			"vim", "lua", "vimdoc", "html", "css",
-        "bash",
-        "c",
+  			"lua",
+        "html",
+        "css",
         "cpp",
-        "dot",
+        "c",
         "asm",
-        "make",
+        "python",
+        "bash",
         "cmake",
+        "markdown",
+        "json",
+        "doxygen",
+        "hyprlang",
+        "latex",
+        "yaml",
+        "toml"
   		},
   	},
   },
